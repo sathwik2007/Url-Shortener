@@ -1,0 +1,15 @@
+# Compiled and build artifacts
+target/
+*.class
+
+# Logs and temp files
+*.log
+
+# Configuration and secrets
+application.properties
+application.yml
+
+# IDE/editor configs
+.idea/
+.vscode/
+.DS_Store

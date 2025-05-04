@@ -1,0 +1,94 @@
+/* Overall page styling */
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #f2f4f8;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Centering the main container */
+  .main-div {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding: 3rem 1rem;
+  }
+  
+  /* Card container */
+  .main-rect {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 16px;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Title */
+  .main-rect h1 {
+    font-size: 1.75rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+  }
+  
+  /* Input field */
+  .input-field {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+  }
+  
+  /* Buttons */
+  button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #2563eb;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #1d4ed8;
+  }
+  
+  /* Short URL output */
+  .main-rect a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 500;
+    word-break: break-word;
+  }
+  
+  .main-rect a:hover {
+    text-decoration: underline;
+  }
+  
+  /* QR Code Image */
+  .main-rect img {
+    margin-top: 1rem;
+    max-width: 180px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  /* Error message */
+  .main-rect p[style*="color: red"] {
+    margin-top: 1rem;
+    color: #dc2626 !important;
+    font-size: 0.9rem;
+  }
+
+  .util-buttons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
